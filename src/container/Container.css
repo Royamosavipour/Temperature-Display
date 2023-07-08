@@ -1,0 +1,74 @@
+.container-box {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: -webkit-radial-gradient(rgb(22, 135, 237), rgb(20, 55, 90));
+  background: radial-gradient(rgb(22, 135, 237), rgb(20, 55, 90));
+  
+  border-radius: 20px;
+}
+
+button
+{
+    margin:1rem;
+    width: 100px;
+    height: 100px;
+    font-size:3rem;
+    border-radius: 50%;
+    border: 5px solid white;
+    background-color: rgb(181, 181, 181);
+    cursor: pointer;
+    transition: all 1s ease-in;
+
+
+}
+
+.cold{
+    background-color: rgb(123, 152, 221);
+    
+}
+
+.hot{
+background-color: coral;
+}
+
+
+button:hover{
+    background-color: blue;
+    font-size: 5rem;
+}
+.low-off-count:hover{
+    background-color: blue;
+    font-size: 5rem;
+}
+
+
+
+.btn-box{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    width:100%;
+    
+}
+
+#box-Elem{
+    width:200px;
+    height:200px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+
+#count{
+    font-size: 4rem;
+    color: aliceblue;
+}
+
